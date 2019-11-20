@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  
+  <identifier>矿物质树</identifier>
+  <version>1.2</version>
+  <dependencies/>
+  <incompatibleWith/>
+  <loadBefore/>
+  <loadAfter/>
+  
+</Manifest>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=========================== 钢铁树 ==============================-->
+  <ThingDef ParentName="Plant_MineralTree">
+    <defName>Plant_TreeSteel</defName>
+    <label>钢铁树</label>
+    <description>一种可以收获到钢铁的树</description>
+    <graphicData>
+      <texPath>Things/Plant/Tree_Steel</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+		<plant>
+			<sowWork>600</sowWork>
+			<growDays>1.5</growDays>
+	    <sowMinSkill>4</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSteel</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Plant/Tree_Common</immatureGraphicPath>
+      <harvestYield>30</harvestYield>
+      <harvestedThingDef>Steel</harvestedThingDef>
+    </plant>
+  </ThingDef>
+
+  <!--=========================== 白银树 ==============================-->
+  <ThingDef ParentName="Plant_MineralTree">
+    <defName>Plant_TreeSilver</defName>
+    <label>白银树</label>
+    <description>一种可以收获到白银的树</description>
+    <graphicData>
+      <texPath>Things/Plant/Tree_Silver</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+    </statBases>
+		<plant>
+			<sowWork>800</sowWork>
+			<growDays>2</growDays>
+			<sowMinSkill>6</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSilver</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Plant/Tree_Common</immatureGraphicPath>
+      <harvestYield>30</harvestYield>
+      <harvestedThingDef>Silver</harvestedThingDef>
+    </plant>
+  </ThingDef>
+
+
+  <!--=========================== 黄金树 ==============================-->
+  <ThingDef ParentName="Plant_MineralTree">
+    <defName>Plant_TreeGold</defName>
+    <label>黄金树</label>
+    <description>一种可以收获到黄金的树</description>
+    <graphicData>
+      <texPath>Things/Plant/Tree_Gold</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>5</Beauty>
+    </statBases>
+		<plant>
+			<sowWork>1200</sowWork>
+			<growDays>4</growDays>
+			<sowMinSkill>9</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeGold</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Plant/Tree_Common</immatureGraphicPath>
+      <harvestYield>20</harvestYield>
+      <harvestedThingDef>Gold</harvestedThingDef>
+    </plant>
+  </ThingDef>
+  
+  
+   <!--=========================== 翡翠树 ==============================-->
+  <ThingDef ParentName="Plant_MineralTree">
+    <defName>Plant_TreeJade</defName>
+    <label>翡翠树</label>
+    <description>一种可以收获到翡翠的树</description>
+    <graphicData>
+      <texPath>Things/Plant/Tree_Jade</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>6</Beauty>
+    </statBases>
+		<plant>
+			<sowWork>2500</sowWork>
+			<growDays>5</growDays>
+			<sowMinSkill>12</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeJade</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Plant/Tree_Common</immatureGraphicPath>
+      <harvestYield>25</harvestYield>
+      <harvestedThingDef>Jade</harvestedThingDef>
+    </plant>
+  </ThingDef>
+
+
+  <!--=========================== 零部件树 ==============================-->
+  <ThingDef ParentName="Plant_MineralTree">
+    <defName>Plant_TreeComponentIndustrial</defName>
+    <label>零部件树</label>
+    <description>因为某个人十分懒惰，导致仓库零部件数量极其低下，于是某个MOD魔改弟弟走上了正义的道路</description>
+    <graphicData>
+      <texPath>Things/Plant/Tree_Common</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <sowWork>2000</sowWork>
+      <growDays>5</growDays>
+      <sowMinSkill>12</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeComponentIndustrial</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Plant/Tree_Common</immatureGraphicPath>
+      <harvestYield>20</harvestYield>
+      <harvestedThingDef>ComponentIndustrial</harvestedThingDef>
+    </plant>
+  </ThingDef>
+
+  <!--=========================== 玻璃钢树 ==============================-->
+  <ThingDef ParentName="Plant_MineralTree">
+    <defName>Plant_TreePlasteel</defName>
+    <label>玻璃钢树</label>
+    <description>这棵树，是这个mod的开始，因为某个仿生部件狂魔对远距离扫描矿物机器速度不满足，才萌生了这个想法</description>
+    <graphicData>
+      <texPath>Things/Plant/Tree_Common</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <sowWork>2500</sowWork>
+      <growDays>8</growDays>
+      <sowMinSkill>13</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreePlasteel</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Plant/Tree_Common</immatureGraphicPath>
+      <harvestYield>25</harvestYield>
+      <harvestedThingDef>Plasteel</harvestedThingDef>
+    </plant>
+  </ThingDef>
+
+  <!--=========================== 高级零部件树 ==============================-->
+  <ThingDef ParentName="Plant_MineralTree">
+    <defName>Plant_TreeComponentSpacer</defName>
+    <label>高级零部件树</label>
+    <description>我反正是想到啥就加啥了，毕竟正义就要正义到底！</description>
+    <graphicData>
+      <texPath>Things/Plant/Tree_Common</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <sowWork>3000</sowWork>
+      <growDays>10</growDays>
+      <sowMinSkill>15</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeComponentSpacer</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Plant/Tree_Common</immatureGraphicPath>
+      <harvestYield>10</harvestYield>
+      <harvestedThingDef>ComponentSpacer</harvestedThingDef>
+    </plant>
+  </ThingDef>
+
+</Defs>

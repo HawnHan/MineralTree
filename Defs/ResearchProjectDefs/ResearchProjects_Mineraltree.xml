@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+    <defName>Plant_MineralTree</defName>
+    <label>矿物树</label>
+	</ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>EnableMineralTree</defName>
+    <label>开启矿物质树</label>
+    <description>解锁研究所有矿物质树</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>TreeSowing</li>
+    </prerequisites>
+    <tab>Plant_MineralTree</tab>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>TreeSteel</defName>
+		<label>钢铁树</label>
+		<description>一种可以收获钢铁的树。</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+      <li>EnableMineralTree</li>
+    </prerequisites>
+		<tab>Plant_MineralTree</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>TreeSilver</defName>
+		<label>白银树</label>
+		<description>一种可以收获白银的树。</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+      <li>EnableMineralTree</li>
+    </prerequisites>
+		<tab>Plant_MineralTree</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>TreeGold</defName>
+		<label>黄金树</label>
+		<description>一种可以收获黄金的树。</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+      <li>EnableMineralTree</li>
+    </prerequisites>
+		<tab>Plant_MineralTree</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>TreeJade</defName>
+		<label>翡翠树</label>
+		<description>一种可以收获翡翠的树。</description>
+		<baseCost>1800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+      <li>EnableMineralTree</li>
+    </prerequisites>
+		<tab>Plant_MineralTree</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>TreeComponentIndustrial</defName>
+    <label>零部件树</label>
+    <description>一种可以收获零部件的树。</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>EnableMineralTree</li>
+    </prerequisites>
+    <tab>Plant_MineralTree</tab>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>TreePlasteel</defName>
+    <label>玻璃钢树</label>
+    <description>一种可以收获玻璃钢的树。</description>
+    <baseCost>2400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>EnableMineralTree</li>
+    </prerequisites>
+    <tab>Plant_MineralTree</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>TreeComponentSpacer</defName>
+    <label>高级零部件树</label>
+    <description>一种可以收获高级零部件的树。</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>EnableMineralTree</li>
+    </prerequisites>
+    <tab>Plant_MineralTree</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  
+</Defs>
